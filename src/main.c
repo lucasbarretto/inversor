@@ -93,6 +93,7 @@ int main() {
 		index = index + word_size;
 	}
 
+	// clears the unused part of the string to remove unwanted characters
 	for(i=index;i<tam_buffer;i++){
 		reverse_text[i] = '\0';
 	}
